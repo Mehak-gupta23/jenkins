@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'task-2-slave'}
 
     tools {
         maven 'Maven-3'
